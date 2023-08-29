@@ -1,0 +1,47 @@
+.searchBar {
+  position: relative;
+  width: 250px;
+  height: 40px;
+}
+
+.input {
+  padding-left: 20px;
+  background: var(--white);
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+  height: 40px;
+  position: relative;
+}
+
+.input:focus {
+  outline: solid var(--pink);
+}
+
+.input:valid {
+  outline: solid var(--red);
+}
+
+.input:focus::placeholder {
+  color: transparent;
+}
+
+.imageWrapper {
+  border: solid 2px var(--pink);
+  width: 26px;
+  height: 22px;
+  background-color: var(--pink);
+  border-radius: 10px;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: var(--pink);
+  outline: solid var(--pink);
+  border-radius: 5px;
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}

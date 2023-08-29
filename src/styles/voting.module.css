@@ -1,0 +1,34 @@
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100vh;
+  width: 41vw;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.label {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 0 10px;
+}
+
+.image {
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.votingContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

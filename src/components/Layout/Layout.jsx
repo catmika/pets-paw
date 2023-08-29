@@ -1,7 +1,7 @@
 import React from "react";
 import { BigSelector } from "@/ui/BigSelector/BigSelector";
 import Image from "next/image";
-import styles from "./Layout.module.css";
+import styles from "./layout.module.css";
 import Link from "next/link";
 
 const Layout = () => {

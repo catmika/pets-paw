@@ -1,0 +1,51 @@
+.votingBar {
+  display: flex;
+  gap: 3px;
+  position: absolute;
+  bottom: -9%;
+  background-color: var(--white);
+  border-radius: 10px;
+  border: 2px solid var(--white);
+}
+
+.like {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+  background-image: url("../../../public/icons/like-white-30.png");
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.like:hover {
+  background-image: url("../../../public/icons/like-color-30.png");
+}
+
+.favourite {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+  background-image: url("../../../public/icons/fav-white-30.png");
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.favourite:hover {
+  background-image: url("../../../public/icons/fav-color-30.png");
+}
+
+.dislike {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+  background-image: url("../../../public/icons/dislike-white-30.png");
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dislike:hover {
+  background-image: url("../../../public/icons/dislike-color-30.png");
+}
